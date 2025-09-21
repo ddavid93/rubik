@@ -5,10 +5,12 @@ Aplicación web gratuita para escanear y resolver cubos de Rubik 3x3 desde tu na
 Características principales:
 - Escaneo con la cámara de las 6 caras del cubo.
 - Detección automática de colores por cada cuadrito (9 por cara) con posibilidad de corrección manual.
+- Vista previa en vivo de colores con guía 3x3 y captura más robusta (promedio multi‑frame) para mejorar la lectura.
 - Validación básica de que el cubo es válido.
 - Generación de instrucciones paso a paso para resolverlo (usando la librería min2phase).
 - Interfaz amigable para peques: botones grandes, colores llamativos, tutorial básico y celebración final con confetti.
-- Diseño responsive para móviles y tablets.
+- Diseño responsive para móviles y tablets (botones full‑width en móviles, cuadrícula adaptable).
+- Soporte opcional de linterna/torch cuando el dispositivo lo permite.
 
 Tecnologías:
 - Vue 3 (Composition API con <script setup> y TypeScript) + Vite

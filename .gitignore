@@ -1,1 +1,6 @@
 /node_modules/
+/.idea/.gitignore
+/.idea/modules.xml
+/.idea/php.xml
+/.idea/RubikCube.iml
+/.idea/vcs.xml

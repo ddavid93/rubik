@@ -19,12 +19,16 @@
     "orderLabel": "Escanea las caras en este orden:",
     "capture": "Capturar",
     "flip": "Voltear cámara",
+    "torch": "Linterna",
     "help": "Coloca una cara del cubo centrada en el recuadro. Evita sombras. Toca \"Capturar\".",
+    "live": "Vista previa de colores en vivo",
     "currentFace": "Cara actual:",
     "progress": "{count} / {total} caras",
     "retry": "Reintentar",
     "confirm": "Confirmar cara",
-    "scannedFaces": "Caras escaneadas"
+    "scannedFaces": "Caras escaneadas",
+    "edit": "Editar color seleccionado",
+    "centerLocked": "El centro está bloqueado porque define el color de la cara"
   },
   "review": {
     "title": "Revisión del cubo",

@@ -19,12 +19,16 @@
     "orderLabel": "Scan faces in this order:",
     "capture": "Capture",
     "flip": "Flip camera",
+    "torch": "Torch",
     "help": "Place a cube face centered in the box. Avoid shadows. Tap \"Capture\".",
+    "live": "Live color preview",
     "currentFace": "Current face:",
     "progress": "{count} / {total} faces",
     "retry": "Retry",
     "confirm": "Confirm face",
-    "scannedFaces": "Scanned faces"
+    "scannedFaces": "Scanned faces",
+    "edit": "Edit selected color",
+    "centerLocked": "The center is locked because it defines the face color"
   },
   "review": {
     "title": "Cube review",

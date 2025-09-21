@@ -19,12 +19,16 @@
     "orderLabel": "Scanne die Flächen in dieser Reihenfolge:",
     "capture": "Aufnehmen",
     "flip": "Kamera wechseln",
+    "torch": "Taschenlampe",
     "help": "Platziere eine Würfelfläche zentriert im Rahmen. Vermeide Schatten. Tippe auf \"Aufnehmen\".",
+    "live": "Live-Farbvorschau",
     "currentFace": "Aktuelle Fläche:",
     "progress": "{count} / {total} Flächen",
     "retry": "Erneut",
     "confirm": "Fläche bestätigen",
-    "scannedFaces": "Gescannte Flächen"
+    "scannedFaces": "Gescannte Flächen",
+    "edit": "Ausgewählte Farbe bearbeiten",
+    "centerLocked": "Das Zentrum ist gesperrt, da es die Flächenfarbe definiert"
   },
   "review": {
     "title": "Würfel-Prüfung",

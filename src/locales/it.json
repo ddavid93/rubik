@@ -19,12 +19,16 @@
     "orderLabel": "Scansiona le facce in questo ordine:",
     "capture": "Acquisisci",
     "flip": "Cambia fotocamera",
+    "torch": "Torcia",
     "help": "Posiziona una faccia del cubo al centro del riquadro. Evita le ombre. Tocca \"Acquisisci\".",
+    "live": "Anteprima colori in tempo reale",
     "currentFace": "Faccia attuale:",
     "progress": "{count} / {total} facce",
     "retry": "Riprova",
     "confirm": "Conferma faccia",
-    "scannedFaces": "Facce scansionate"
+    "scannedFaces": "Facce scansionate",
+    "edit": "Modifica colore selezionato",
+    "centerLocked": "Il centro è bloccato perché definisce il colore della faccia"
   },
   "review": {
     "title": "Revisione del cubo",
