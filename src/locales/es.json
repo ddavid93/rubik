@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "Rubik Kids Solver",
+    "language": "Idioma"
+  },
+  "steps": {
+    "start": "Inicio",
+    "scan": "Escanear",
+    "review": "Validar y Resolver",
+    "play": "Instrucciones"
+  },
+  "home": {
+    "heading": "¡Vamos a resolver tu cubo!",
+    "description": "Sigue los pasos. Usaremos tu cámara para leer los colores. Todo es seguro y sólo en tu dispositivo.",
+    "start": "Empezar",
+    "tutorial": "Tutorial"
+  },
+  "scan": {
+    "orderLabel": "Escanea las caras en este orden:",
+    "capture": "Capturar",
+    "flip": "Voltear cámara",
+    "help": "Coloca una cara del cubo centrada en el recuadro. Evita sombras. Toca \"Capturar\".",
+    "currentFace": "Cara actual:",
+    "progress": "{count} / {total} caras",
+    "retry": "Reintentar",
+    "confirm": "Confirmar cara",
+    "scannedFaces": "Caras escaneadas"
+  },
+  "review": {
+    "title": "Revisión del cubo",
+    "desc": "Así quedó tu cubo escaneado. Si algo está mal, vuelve atrás y corrige.",
+    "back": "Volver",
+    "validate": "Validar",
+    "solve": "Resolver",
+    "tip": "Tip: El centro define el color de cada cara. Puedes tocar los cuadritos al escanear para corregirlos."
+  },
+  "solution": {
+    "title": "Instrucciones paso a paso",
+    "stepCounter": "Paso {current} de {total}",
+    "prev": "Anterior",
+    "next": "Siguiente",
+    "hint": "Toca un botón cuando termines el movimiento. ¡Tú puedes!",
+    "emptyTitle": "Tu cubo ya está resuelto o no hay pasos.",
+    "rescan": "Volver a escanear"
+  },
+  "move": {
+    "turn": "Gira la cara {face} {dir}",
+    "advice": "Consejo: Mantén el cubo con la cara blanca arriba y la verde al frente.",
+    "faces": {
+      "U": "de ARRIBA",
+      "D": "de ABAJO",
+      "F": "de FRENTE",
+      "B": "de ATRÁS",
+      "R": "DERECHA",
+      "L": "IZQUIERDA"
+    },
+    "dir": {
+      "twice": "dos veces (180°)",
+      "left": "hacia la izquierda (90°)",
+      "right": "hacia la derecha (90°)"
+    }
+  },
+  "tutorial": {
+    "title": "Tutorial básico",
+    "intro": "Aprende los movimientos básicos del cubo de Rubik.",
+    "items": {
+      "U": "U: Gira la cara de arriba a la derecha. U': a la izquierda. U2: dos veces.",
+      "D": "D: Cara de abajo.",
+      "F": "F: Cara del frente.",
+      "B": "B: Cara de atrás.",
+      "R": "R: Cara derecha.",
+      "L": "L: Cara izquierda."
+    },
+    "scanTips": {
+      "title": "Consejos para escanear",
+      "a": "Buena luz y fondo neutro.",
+      "b": "Centro del cubo dentro del recuadro.",
+      "c": "Puedes corregir tocando los cuadritos."
+    },
+    "solveTips": {
+      "title": "Durante la solución",
+      "a": "Sigue los pasos en orden.",
+      "b": "Usa los botones grandes para avanzar.",
+      "c": "¡Al final hay una sorpresa! 🎉"
+    },
+    "close": "¡Entendido!"
+  },
+  "validation": {
+    "missingFace": "Falta la cara {k}",
+    "centerMismatch": "El centro de la cara {k} debe ser {k}",
+    "unknownColor": "Color desconocido {c}",
+    "colorCount": "El color {k} tiene {v} stickers, debe tener 9"
+  },
+  "toasts": {
+    "validCube": {
+      "summary": "Cubo válido",
+      "detail": "¡Listo para resolver!"
+    },
+    "invalidCube": {
+      "summary": "Cubo inválido"
+    },
+    "error": {
+      "summary": "Error",
+      "validating": "No se pudo validar el cubo"
+    },
+    "solve": {
+      "already": {
+        "summary": "Ya está resuelto",
+        "detail": "Tu cubo ya estaba listo ✨"
+      },
+      "ready": {
+        "summary": "Solución lista",
+        "detail": "{count} pasos encontrados"
+      },
+      "failed": {
+        "summary": "Error al resolver",
+        "detail": "Intenta re-escanear el cubo"
+      }
+    }
+  },
+  "common": {
+    "reset": "Reiniciar",
+    "continue": "Continuar",
+    "back": "Volver"
+  },
+  "lang": {
+    "es": "Español",
+    "en": "Inglés",
+    "it": "Italiano",
+    "de": "Alemán"
+  }
+}

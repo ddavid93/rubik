@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "Rubik Kids Solver",
+    "language": "Language"
+  },
+  "steps": {
+    "start": "Start",
+    "scan": "Scan",
+    "review": "Review & Solve",
+    "play": "Instructions"
+  },
+  "home": {
+    "heading": "Let’s solve your cube!",
+    "description": "Follow the steps. We’ll use your camera to read colors. Everything runs safely on your device.",
+    "start": "Start",
+    "tutorial": "Tutorial"
+  },
+  "scan": {
+    "orderLabel": "Scan faces in this order:",
+    "capture": "Capture",
+    "flip": "Flip camera",
+    "help": "Place a cube face centered in the box. Avoid shadows. Tap \"Capture\".",
+    "currentFace": "Current face:",
+    "progress": "{count} / {total} faces",
+    "retry": "Retry",
+    "confirm": "Confirm face",
+    "scannedFaces": "Scanned faces"
+  },
+  "review": {
+    "title": "Cube review",
+    "desc": "Here is your scanned cube. If something is wrong, go back and fix it.",
+    "back": "Back",
+    "validate": "Validate",
+    "solve": "Solve",
+    "tip": "Tip: The center defines each face color. You can tap squares while scanning to fix them."
+  },
+  "solution": {
+    "title": "Step-by-step instructions",
+    "stepCounter": "Step {current} of {total}",
+    "prev": "Previous",
+    "next": "Next",
+    "hint": "Tap a button when you finish the move. You can do it!",
+    "emptyTitle": "Your cube is already solved or there are no moves.",
+    "rescan": "Scan again"
+  },
+  "move": {
+    "turn": "Turn the {face} face {dir}",
+    "advice": "Tip: Hold the cube with white on top and green in front.",
+    "faces": {
+      "U": "TOP",
+      "D": "BOTTOM",
+      "F": "FRONT",
+      "B": "BACK",
+      "R": "RIGHT",
+      "L": "LEFT"
+    },
+    "dir": {
+      "twice": "twice (180°)",
+      "left": "counter-clockwise (90°)",
+      "right": "clockwise (90°)"
+    }
+  },
+  "tutorial": {
+    "title": "Basic tutorial",
+    "intro": "Learn the basic Rubik's cube moves.",
+    "items": {
+      "U": "U: Turn the top face to the right. U': to the left. U2: twice.",
+      "D": "D: Bottom face.",
+      "F": "F: Front face.",
+      "B": "B: Back face.",
+      "R": "R: Right face.",
+      "L": "L: Left face."
+    },
+    "scanTips": {
+      "title": "Scanning tips",
+      "a": "Good light and neutral background.",
+      "b": "Keep the cube centered in the box.",
+      "c": "You can fix colors by tapping squares."
+    },
+    "solveTips": {
+      "title": "During the solution",
+      "a": "Follow the steps in order.",
+      "b": "Use the big buttons to go forward.",
+      "c": "There is a surprise at the end! 🎉"
+    },
+    "close": "Got it!"
+  },
+  "validation": {
+    "missingFace": "Missing face {k}",
+    "centerMismatch": "Face {k}'s center must be {k}",
+    "unknownColor": "Unknown color {c}",
+    "colorCount": "Color {k} has {v} stickers; must be 9"
+  },
+  "toasts": {
+    "validCube": {
+      "summary": "Cube valid",
+      "detail": "Ready to solve!"
+    },
+    "invalidCube": {
+      "summary": "Invalid cube"
+    },
+    "error": {
+      "summary": "Error",
+      "validating": "Could not validate the cube"
+    },
+    "solve": {
+      "already": {
+        "summary": "Already solved",
+        "detail": "Your cube was already solved ✨"
+      },
+      "ready": {
+        "summary": "Solution ready",
+        "detail": "{count} steps found"
+      },
+      "failed": {
+        "summary": "Solve error",
+        "detail": "Try re-scanning the cube"
+      }
+    }
+  },
+  "common": {
+    "reset": "Reset",
+    "continue": "Continue",
+    "back": "Back"
+  },
+  "lang": {
+    "es": "Spanish",
+    "en": "English",
+    "it": "Italian",
+    "de": "German"
+  }
+}

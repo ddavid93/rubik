@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "Rubik Kids Solver",
+    "language": "Lingua"
+  },
+  "steps": {
+    "start": "Inizio",
+    "scan": "Scansiona",
+    "review": "Verifica e Risolvi",
+    "play": "Istruzioni"
+  },
+  "home": {
+    "heading": "Risolviamo il tuo cubo!",
+    "description": "Segui i passi. Useremo la tua fotocamera per leggere i colori. Tutto avviene in sicurezza sul tuo dispositivo.",
+    "start": "Inizia",
+    "tutorial": "Tutorial"
+  },
+  "scan": {
+    "orderLabel": "Scansiona le facce in questo ordine:",
+    "capture": "Acquisisci",
+    "flip": "Cambia fotocamera",
+    "help": "Posiziona una faccia del cubo al centro del riquadro. Evita le ombre. Tocca \"Acquisisci\".",
+    "currentFace": "Faccia attuale:",
+    "progress": "{count} / {total} facce",
+    "retry": "Riprova",
+    "confirm": "Conferma faccia",
+    "scannedFaces": "Facce scansionate"
+  },
+  "review": {
+    "title": "Revisione del cubo",
+    "desc": "Ecco il tuo cubo scansionato. Se qualcosa non va, torna indietro e correggilo.",
+    "back": "Indietro",
+    "validate": "Verifica",
+    "solve": "Risolvi",
+    "tip": "Suggerimento: Il centro definisce il colore di ogni faccia. Puoi toccare i quadratini durante la scansione per correggerli."
+  },
+  "solution": {
+    "title": "Istruzioni passo passo",
+    "stepCounter": "Passo {current} di {total}",
+    "prev": "Precedente",
+    "next": "Successivo",
+    "hint": "Tocca un pulsante quando hai finito il movimento. Ce la puoi fare!",
+    "emptyTitle": "Il tuo cubo è già risolto o non ci sono mosse.",
+    "rescan": "Scansiona di nuovo"
+  },
+  "move": {
+    "turn": "Gira la faccia {face} {dir}",
+    "advice": "Suggerimento: Tieni il cubo con il bianco in alto e il verde davanti.",
+    "faces": {
+      "U": "SUPERIORE",
+      "D": "INFERIORE",
+      "F": "FRONTALE",
+      "B": "POSTERIORE",
+      "R": "DESTRA",
+      "L": "SINISTRA"
+    },
+    "dir": {
+      "twice": "due volte (180°)",
+      "left": "in senso antiorario (90°)",
+      "right": "in senso orario (90°)"
+    }
+  },
+  "tutorial": {
+    "title": "Tutorial base",
+    "intro": "Impara i movimenti base del cubo di Rubik.",
+    "items": {
+      "U": "U: Gira la faccia superiore a destra. U': a sinistra. U2: due volte.",
+      "D": "D: Faccia inferiore.",
+      "F": "F: Faccia frontale.",
+      "B": "B: Faccia posteriore.",
+      "R": "R: Faccia destra.",
+      "L": "L: Faccia sinistra."
+    },
+    "scanTips": {
+      "title": "Consigli per la scansione",
+      "a": "Buona luce e sfondo neutro.",
+      "b": "Tieni il cubo centrato nel riquadro.",
+      "c": "Puoi correggere toccando i quadratini."
+    },
+    "solveTips": {
+      "title": "Durante la soluzione",
+      "a": "Segui i passi in ordine.",
+      "b": "Usa i pulsanti grandi per avanzare.",
+      "c": "C'è una sorpresa alla fine! 🎉"
+    },
+    "close": "Ho capito!"
+  },
+  "validation": {
+    "missingFace": "Manca la faccia {k}",
+    "centerMismatch": "Il centro della faccia {k} deve essere {k}",
+    "unknownColor": "Colore sconosciuto {c}",
+    "colorCount": "Il colore {k} ha {v} adesivi; devono essere 9"
+  },
+  "toasts": {
+    "validCube": {
+      "summary": "Cubo valido",
+      "detail": "Pronto per risolvere!"
+    },
+    "invalidCube": {
+      "summary": "Cubo non valido"
+    },
+    "error": {
+      "summary": "Errore",
+      "validating": "Impossibile verificare il cubo"
+    },
+    "solve": {
+      "already": {
+        "summary": "Già risolto",
+        "detail": "Il tuo cubo era già risolto ✨"
+      },
+      "ready": {
+        "summary": "Soluzione pronta",
+        "detail": "{count} passi trovati"
+      },
+      "failed": {
+        "summary": "Errore di risoluzione",
+        "detail": "Prova a scansionare di nuovo il cubo"
+      }
+    }
+  },
+  "common": {
+    "reset": "Reimposta",
+    "continue": "Continua",
+    "back": "Indietro"
+  },
+  "lang": {
+    "es": "Spagnolo",
+    "en": "Inglese",
+    "it": "Italiano",
+    "de": "Tedesco"
+  }
+}

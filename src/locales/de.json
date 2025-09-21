@@ -1,0 +1,132 @@
+{
+  "app": {
+    "title": "Rubik Kids Solver",
+    "language": "Sprache"
+  },
+  "steps": {
+    "start": "Start",
+    "scan": "Scannen",
+    "review": "Prüfen & Lösen",
+    "play": "Anleitung"
+  },
+  "home": {
+    "heading": "Lass uns deinen Würfel lösen!",
+    "description": "Folge den Schritten. Wir verwenden deine Kamera, um Farben zu lesen. Alles läuft sicher auf deinem Gerät.",
+    "start": "Start",
+    "tutorial": "Tutorial"
+  },
+  "scan": {
+    "orderLabel": "Scanne die Flächen in dieser Reihenfolge:",
+    "capture": "Aufnehmen",
+    "flip": "Kamera wechseln",
+    "help": "Platziere eine Würfelfläche zentriert im Rahmen. Vermeide Schatten. Tippe auf \"Aufnehmen\".",
+    "currentFace": "Aktuelle Fläche:",
+    "progress": "{count} / {total} Flächen",
+    "retry": "Erneut",
+    "confirm": "Fläche bestätigen",
+    "scannedFaces": "Gescannte Flächen"
+  },
+  "review": {
+    "title": "Würfel-Prüfung",
+    "desc": "So sieht dein gescannter Würfel aus. Wenn etwas nicht stimmt, gehe zurück und korrigiere es.",
+    "back": "Zurück",
+    "validate": "Prüfen",
+    "solve": "Lösen",
+    "tip": "Tipp: Das Zentrum definiert die Farbe jeder Fläche. Du kannst beim Scannen Felder antippen, um sie zu korrigieren."
+  },
+  "solution": {
+    "title": "Schritt-für-Schritt-Anleitung",
+    "stepCounter": "Schritt {current} von {total}",
+    "prev": "Zurück",
+    "next": "Weiter",
+    "hint": "Tippe einen Knopf, wenn du den Zug ausgeführt hast. Du schaffst das!",
+    "emptyTitle": "Dein Würfel ist bereits gelöst oder es gibt keine Züge.",
+    "rescan": "Erneut scannen"
+  },
+  "move": {
+    "turn": "Drehe die {face}-Fläche {dir}",
+    "advice": "Tipp: Halte den Würfel mit Weiß oben und Grün vorne.",
+    "faces": {
+      "U": "OBEN",
+      "D": "UNTEN",
+      "F": "VORNE",
+      "B": "HINTEN",
+      "R": "RECHTS",
+      "L": "LINKS"
+    },
+    "dir": {
+      "twice": "zweimal (180°)",
+      "left": "gegen den Uhrzeigersinn (90°)",
+      "right": "im Uhrzeigersinn (90°)"
+    }
+  },
+  "tutorial": {
+    "title": "Grundlagen-Tutorial",
+    "intro": "Lerne die grundlegenden Bewegungen des Zauberwürfels.",
+    "items": {
+      "U": "U: Drehe die obere Fläche nach rechts. U': nach links. U2: zweimal.",
+      "D": "D: Untere Fläche.",
+      "F": "F: Vordere Fläche.",
+      "B": "B: Hintere Fläche.",
+      "R": "R: Rechte Fläche.",
+      "L": "L: Linke Fläche."
+    },
+    "scanTips": {
+      "title": "Scan-Tipps",
+      "a": "Gutes Licht und neutraler Hintergrund.",
+      "b": "Halte den Würfel zentriert im Rahmen.",
+      "c": "Du kannst Farben korrigieren, indem du auf Felder tippst."
+    },
+    "solveTips": {
+      "title": "Während der Lösung",
+      "a": "Folge den Schritten der Reihe nach.",
+      "b": "Nutze die großen Tasten zum Weitergehen.",
+      "c": "Am Ende gibt es eine Überraschung! 🎉"
+    },
+    "close": "Verstanden!"
+  },
+  "validation": {
+    "missingFace": "Fläche {k} fehlt",
+    "centerMismatch": "Das Zentrum der Fläche {k} muss {k} sein",
+    "unknownColor": "Unbekannte Farbe {c}",
+    "colorCount": "Farbe {k} hat {v} Sticker; es müssen 9 sein"
+  },
+  "toasts": {
+    "validCube": {
+      "summary": "Würfel gültig",
+      "detail": "Bereit zum Lösen!"
+    },
+    "invalidCube": {
+      "summary": "Ungültiger Würfel"
+    },
+    "error": {
+      "summary": "Fehler",
+      "validating": "Würfel konnte nicht geprüft werden"
+    },
+    "solve": {
+      "already": {
+        "summary": "Bereits gelöst",
+        "detail": "Dein Würfel war bereits gelöst ✨"
+      },
+      "ready": {
+        "summary": "Lösung bereit",
+        "detail": "{count} Schritte gefunden"
+      },
+      "failed": {
+        "summary": "Lösefehler",
+        "detail": "Versuche, den Würfel erneut zu scannen"
+      }
+    }
+  },
+  "common": {
+    "reset": "Zurücksetzen",
+    "continue": "Weiter",
+    "back": "Zurück"
+  },
+  "lang": {
+    "es": "Spanisch",
+    "en": "Englisch",
+    "it": "Italienisch",
+    "de": "Deutsch"
+  }
+}
