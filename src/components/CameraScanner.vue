@@ -128,7 +128,6 @@ const overlaySize = ref(240);
 
 const faces = ref<Record<string, FaceLabel[]>>({ ...(props.faces as any) });
 watch(() => props.faces, (v) => { faces.value = { ...(v as any) }; }, { deep: true });
-watch(faces, (v) => emit('update:faces', v), { deep: true });
 
 const scanned = ref<FaceLabel[]>([]);
 const currentFaceIndex = ref(0);
@@ -353,6 +352,8 @@ function redo() {
 function confirmFace() {
   if (!canConfirm.value) return;
   (faces.value as any)[currentFace.value] = currentGrid.value.slice();
+  // emit faces update only on confirm to avoid feedback loops
+  emit('update:faces', faces.value);
   if (!scanned.value.includes(currentFace.value)) scanned.value.push(currentFace.value);
   if (scanned.value.length === props.requiredOrder.length) {
     emit('update:completed', true);
